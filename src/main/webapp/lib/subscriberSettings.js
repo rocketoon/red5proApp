@@ -4,7 +4,7 @@
     var rtcSubscriber = new red5prosdk.RTCSubscriber();
     var config = {
         protocol: 'ws',
-        host: '192.168.1.119',
+        host: '18.218.165.114',
         port: 8081,
         app: 'rocketApp',
         streamName: getParameterByName('name', 'rocketStream'),
